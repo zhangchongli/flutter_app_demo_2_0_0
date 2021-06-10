@@ -1,7 +1,6 @@
 
-source 'https://rubygems.byted.org'
+source 'https://gems.ruby-china.com'
 
 gem 'cocoapods', '1.8.4'
-gem 'bd_pod_extentions', '6.3.0'
 
 
