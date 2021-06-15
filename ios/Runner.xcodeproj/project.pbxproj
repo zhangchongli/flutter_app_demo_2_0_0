@@ -438,10 +438,10 @@
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = X46375UBYG;
+				DEVELOPMENT_TEAM = X46375UBYGasdf;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -450,7 +450,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mpaas.bytedance.inhouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = MPassInHouse.dist;
+				PROVISIONING_PROFILE_SPECIFIER = Douyin_iOS_Debug_2_Wildcard_3OKRUD6VCL;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
