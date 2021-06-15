@@ -448,7 +448,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mpaas.bytedance.inhouse;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mpaxxas.bytedance.inhouse.;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = Douyin_iOS_Debug_2_Wildcard_3OKRUD6VCL;
 				VERSIONING_SYSTEM = "apple-generic";
