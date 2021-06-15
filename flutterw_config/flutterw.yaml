@@ -1,4 +1,0 @@
-engine:
-  git:
-    url: 'git@github.com:flutter/flutter.git'
-    ref: 2.0.0
