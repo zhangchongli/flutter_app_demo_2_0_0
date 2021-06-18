@@ -68,11 +68,15 @@ class _MyHomePageState extends State<MyHomePage> {
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
     return Scaffold(
+      // code error:  Use Flutter TODO format
+      // TODO(fyf): to do later
       appBar: AppBar(
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
       ),
+      /// code error:  Use Flutter TODO format
+      /// TODO(fyf): to do later
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
@@ -107,7 +111,35 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: Icon(Icons.add),
+        // code error:  Avoid redundant argument values
+        maxLinne: 1,
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
+  }
+
+  // code error: Annotate overridden members
+  void reassemble() { }
+
+  // code error: avoid returning null from members whose return type is bool, double, int or ...
+  int sendTimeoutt() => null;
+
+  int testFoo(int a) {
+    switch (a) {
+      case 1:
+        return 1;
+      case 2:
+        return 2;
+        // code error: no default cases
+      default:
+        return 3;
+    }
+  }
+}
+
+// code error: Avoid defining a class that contains only static members
+class A {
+  static const int a = 1;
+  static int getInt() {
+    return 1;
   }
 }
