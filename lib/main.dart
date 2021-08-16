@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/hot_update.dart';
 
 void main() {
+  // HotUpdate.loadPackage("/sdcard/Android/dynamic.zip");
   runApp(MyApp());
 }
 
